@@ -388,19 +388,26 @@ video {
 	}
 	.contacto {
 		margin: 0 auto;
+		display: block;
+	}
+	.contacto a {
+		display: block;
 	}
 	.formulario {
 		display: block;
 		margin: 0 auto;
 		width: 300px;
 	}
-	.intereses label {
+	.formulario label {
+		font-size: 20px;
+	}
+	.intereses label, .sexo label {
 		display: block;
-		font-size: 16px;
 	}
 	input[type="text"], input[type="email"] {
 		font-size: 16px;
 		padding: 5px;
+		margin-bottom: 5px;
 	}
 	textarea {
 		width: 100%;
